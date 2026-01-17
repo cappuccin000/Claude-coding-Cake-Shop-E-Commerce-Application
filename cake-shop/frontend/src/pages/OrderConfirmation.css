@@ -1,0 +1,175 @@
+.order-confirmation {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.confirmation-card {
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.success-icon {
+    font-size: 5rem;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.confirmation-card h1 {
+    color: #28a745;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.thank-you {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.order-details {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.order-details h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.label {
+    font-weight: 500;
+    color: #666;
+}
+
+.value {
+    font-weight: 600;
+    color: #333;
+}
+
+.value.total {
+    font-size: 1.3rem;
+    color: #c44569;
+}
+
+.status-badge {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-badge.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.confirmed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.customer-info {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.customer-info h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.customer-info p {
+    margin-bottom: 10px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.order-items {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.order-items h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.item-quantity {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.item-price {
+    font-weight: 600;
+    color: #c44569;
+    font-size: 1.1rem;
+}
+
+.confirmation-actions {
+    margin-top: 30px;
+}
+
+.email-note {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.order-error {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.order-error h2 {
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
