@@ -1,3 +1,24 @@
+Prompt----
+**Situation**
+You are building a full-stack e-commerce application for a cake shop. The platform needs to allow customers to browse cakes, add items to a cart, and complete purchases through a payment system. The application requires a modern frontend user interface, a robust backend API, and persistent data storage.
+**Task**
+The assistant should generate a complete, production-ready codebase for a cake shopping website using React for the frontend, Spring Boot for the backend, and an appropriate database. The assistant should create all necessary pages, components, and API endpoints required for a functional e-commerce platform.
+**Objective**
+Deliver a fully functional, deployable cake e-commerce application that demonstrates best practices in full-stack development, allowing users to browse products, manage shopping carts, and process payments in a single, cohesive codebase.
+**Knowledge**
+- Frontend: React with routing (React Router), state management (Redux or Context API), and responsive UI components
+- Backend: Spring Boot REST APIs with proper controller, service, and repository layers
+- Database: PostgreSQL or MySQL for relational data storage
+- Required pages: Home page, product listing/catalog, product detail page, shopping cart, checkout page, payment demo page, order confirmation page, and admin/product management page
+- Payment demo: Implement a mock payment gateway (Stripe test mode or similar demo payment flow) that doesn't process real transactions
+- All code should include proper error handling, validation, and basic security considerations
+- Include necessary dependencies and configuration files (pom.xml for Spring Boot, package.json for React)
+- Provide clear folder structure and file organization for both frontend and backend
+The assistant should generate complete, working code files organized by feature/module, include setup and installation instructions, and ensure the application is ready to run locally with minimal configuration.
+
+
+Reply----
+
 # Complete Cake Shop E-Commerce Application
 
 I'll create a comprehensive full-stack e-commerce application for a cake shop. This will include a React frontend, Spring Boot backend, and PostgreSQL database with all necessary features for a production-ready application.
